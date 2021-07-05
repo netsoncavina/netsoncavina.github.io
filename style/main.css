@@ -39,7 +39,7 @@ header nav a:hover{
     font-size: 16px;
     background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)100%), url("/Netflix/img/capa-houseofcards.jpg");
     height:400px;
-    background-size:cover;
+    background-size:100% 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,7 +50,7 @@ header nav a:hover{
     font-size: 16px;
     background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)100%), url("/img/capa-houseofcards.jpg");
     height:400px;
-    background-size:cover;
+    background-size:100% 100%;
     /* background-size: */
     display: flex;
     flex-direction: column;

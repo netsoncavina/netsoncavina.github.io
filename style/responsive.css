@@ -17,6 +17,20 @@
     }
 }
 
+@media screen and (max-width:400px){
+    .filme-principal .descricao {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        /* width: 100%; */
+    }
+    
+    .filme-principal .titulo{
+        margin-top: 0;
+        font-size: 50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
+
 @media screen and (min-width:100px){
     .descricao{
         width: 70%;
