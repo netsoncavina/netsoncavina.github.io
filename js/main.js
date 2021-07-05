@@ -18,7 +18,7 @@ function atualizarFilme(nome_do_filme){
             break
         case 'starWars9':
             document.getElementById("titulo").innerHTML = "Star Wars IX: A Ascenção Skywalker"
-            document.getElementById("titulo").style.fontSize = "40px"
+            // document.getElementById("titulo").style.fontSize = "40px"
             document.getElementById("sinopse").innerHTML = "Com o retorno do Imperador Palpatine, todos voltam a temer seu poder e, com isso, a Resistência toma a frente da batalha que ditará os rumos da galáxia. Treinando para ser uma completa Jedi, Rey (Daisy Ridley) ainda se encontra em conflito"
             document.getElementById("trailer").href = "https://www.youtube.com/watch?v=i3X-xQIjqws"
             document.getElementById("info").href = "https://www.imdb.com/title/tt2527338/?ref_=nv_sr_srsg_0"
@@ -43,7 +43,7 @@ function atualizarFilme(nome_do_filme){
             break
         case 'hobbitFiveArmies':
             document.getElementById("titulo").innerHTML = "Hobbit: A Batalha dos Cinco Exércitos"
-            document.getElementById("titulo").style.fontSize = "35px"
+            // document.getElementById("titulo").style.fontSize = "35px"
             document.getElementById("sinopse").innerHTML = "O dragão Smaug lança sua fúria ardente contra a Cidade do Lago que fica próxima da montanha de Erebor. Bard consegue derrotá-lo, mas, rapidamente, sem a ameaça do dragão, inicia-se uma batalha pelo controle de Erebor e sua riqueza."
             document.getElementById("trailer").href = "https://www.youtube.com/watch?v=iVAgTiBrrDA"
             document.getElementById("info").href = "https://www.imdb.com/title/tt2310332/?ref_=nv_sr_srsg_0"
