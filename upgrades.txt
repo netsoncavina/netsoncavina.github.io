@@ -1,0 +1,2 @@
+* Adicionar a função de "mais informações" nos outros filmes (a função só está presente no game of thrones por enquanto)
+*

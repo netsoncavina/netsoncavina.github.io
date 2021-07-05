@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <!-- Responsividade -->
+    <link rel="stylesheet" href="style/responsive.css">
+    <!-- Owl CSS -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <!-- Magnific pop up -->
+    <link rel="stylesheet" href="style/magnific-popup.css">
+    <link rel="icon" href="img/icone.ico" type="image/x-icon" />
+
+    <title>TRAILERFLIX</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">TRAILERFLIX</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Series</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentarios</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="filme-principal" id="filme-principal">
+            <div class="container">
+                <h3 class="titulo" id="titulo">House of Cards</h3>
+                <p class="descricao" id="sinopse">Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro.</p>
+                <div class="botoes">
+                    <a class="popup" id="trailer" href = "https://www.youtube.com/watch?v=8QnMmpfKWvo" target="_blank">
+                        <button  role="button" class="botao" >
+                        <i class="fas fa-play"></i>
+                        ASSISTIR TRAILER
+                    </button>
+                    </a>
+                    <!-- <a id="info" href = "https://www.imdb.com/title/tt1856010/?ref_=fn_al_tt_1" target="_blank"> -->
+                    <a id="info" onclick="">
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" onclick="atualizarFilme('gameOfThrones')" src="img/mini12.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" onclick="atualizarFilme('breakingBad')" src="img/mini6.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" onclick="atualizarFilme('lucifer')" src="img/mini13.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" onclick="atualizarFilme('starWars9')" src="img/mini2.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" onclick="atualizarFilme('civilWar')"src="img/mini4.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" onclick="atualizarFilme('guerraInfinita')" src="img/mini10.jpg">
+            </div>
+            <div class="item">
+                <img  class="box-filme" onclick="atualizarFilme('umbrella')" src="img/mini1.jpg">
+            </div>
+            
+            <div class="item">
+                <img class="box-filme" onclick="atualizarFilme('pokemon')" src="img/mini3.jpg">
+            </div>
+            
+            <div class="item">
+                <img class="box-filme" onclick="atualizarFilme('hobbitFiveArmies')" src="img/mini5.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" onclick="atualizarFilme('house')" src="img/mini7.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" onclick="atualizarFilme('supernatural')" src="img/mini8.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" onclick="atualizarFilme('smallville')" src="img/mini9.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" onclick="atualizarFilme('houseOfCards')" src="img/mini11.jpg">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".popup").magnificPopup({
+                type: "iframe"
+            })
+        })
+    </script>
+</body>
+    
+ 
+</html>
